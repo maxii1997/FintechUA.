@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections_array">
+        <item>Presupuesto</item>
+        <item>Gastos</item>
+        <item>Ver gastos</item>
+        <item>preferencias</item>
+        <item>mapa</item>
+    </string-array>
+</resources>

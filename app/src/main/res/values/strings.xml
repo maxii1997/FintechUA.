@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FintechUA</string>
+    <string-array name="categorias_array">
+        <item>Arriendo/Hipoteca</item>
+        <item>Alimentación</item>
+        <item>Transporte</item>
+        <item>Servicios básicos</item>
+        <item>Educación</item>
+        <item>Deudas</item>
+        <item>Ahorros e inversiones</item>
+    </string-array>
+    <string name="welcome_title">Welcome to FintechUA</string>
+    <string name="welcome_message">Thank you for using our application!</string>
+    <string name="accept">Accept</string>
+    <string name="budget">Budget</string>
+    <string name="category">Category</string>
+    <string name="summary">Summary</string>
+    <string name="title_generate_budget">Generate Budget</string>
+    <string name="hint_enter_budget">Enter desired budget</string>
+    <string name="btn_generate_budget">Generate Budget</string>
+    <string name="hint_budget">Budget</string>
+    <string name="button_save">Save</string>
+    <string name="text_rent_mortgage">Rent/Mortgage</string>
+    <string name="text_food">Food</string>
+    <string name="text_transportation">Transportation</string>
+    <string name="text_utilities">Utilities</string>
+    <string name="text_education">Education</string>
+    <string name="text_debts">Debts</string>
+    <string name="text_savings_investments">Savings and Investments</string>
+    <string name="hint_rent_mortgage">Enter rent/mortgage amount</string>
+    <string name="hint_food">Enter food amount</string>
+    <string name="hint_transportation">Enter transportation amount</string>
+    <string name="hint_utilities">Enter utilities amount</string>
+    <string name="hint_education">Enter education amount</string>
+    <string name="hint_debts">Enter debts amount</string>
+    <string name="hint_savings_investments">Enter savings/investments amount</string>
+    <string name="button_calculate_budget">Calculate Budget</string>
+    <string name="menu_presupuesto">Budget</string>
+    <string name="menu_gastos">Expenses</string>
+    <string name="menu_ver_gastos">View Expenses</string>
+    <string name="menu_generar_presupuesto">Preferences</string>
+    <string name="menu_mapa">Map</string>
+    <string name="valor_dolar">Dollar Value: $</string>
+    <string name="valor_uf">UF Value: $</string>
+    <string name="nombre_hint">Name</string>
+    <string name="apellidos_hint">Last Name</string>
+    <string name="correo_hint">Email</string>
+    <string name="telefono_hint">Phone</string>
+    <string name="fecha_nacimiento_hint">Date of Birth</string>
+    <string name="gasto">Spent</string>
+    <string name="options">Options</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="item_updated">Item updated successfully</string>
+    <string name="item_deleted">Item deleted successfully</string>
+    <string name="delete_failed">Failed to delete the item</string>
+    <string name="expenses_updated">Expenses updated successfully</string>
+    <string name="update_failed">Failed to update expenses</string>
+    <string name="pagos">Number of payments</string>
+
+</resources>

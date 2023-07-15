@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_resumen"
+        android:title="presupuesto"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_presupuestos"
+        android:title="gastos"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_gastos"
+        android:title="ver gastos"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_indicadores"
+        android:title="generar presupuesto"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_mapa"
+        android:title="mapa"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+</menu>

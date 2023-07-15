@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".presupuesto">
+        <TextView
+            android:id="@+id/tvPresupuesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/primero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_rent_mortgage"
+            android:layout_below="@id/tvPresupuesto"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/alimentacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_food"
+            android:layout_below="@id/primero"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/transporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_transportation"
+            android:layout_below="@id/alimentacion"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/basicos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_utilities"
+            android:layout_below="@id/transporte"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/educacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_education"
+            android:layout_below="@id/basicos"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/deudas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_debts"
+            android:layout_below="@id/educacion"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/ahorros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_savings_investments"
+            android:layout_below="@id/deudas"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="2dp" />
+
+        <EditText
+            android:id="@+id/etArriendo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_rent_mortgage"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/ahorros"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etAlimentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_food"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etArriendo"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_transportation"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etAlimentacion"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etServiciosBasicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_utilities"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etTransporte"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etEducacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_education"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etServiciosBasicos"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etDeudas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_debts"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etEducacion"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etAhorros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_savings_investments"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/etDeudas"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etAhorros"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/button_calculate_budget" />
+    </RelativeLayout>
+
+</ScrollView>
