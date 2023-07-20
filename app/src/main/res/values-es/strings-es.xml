@@ -49,4 +49,6 @@
     <string name="expenses_updated">Gastos actualizados exitosamente</string>
     <string name="update_failed">Error al actualizar los gastos</string>
     <string name="pagos">Numero de pagos</string>
+    <string name="splash1">Diseñado por LircayHub</string>
+    <string name="splash2">Desarrollado por Maximiliano Solis</string>
 </resources>

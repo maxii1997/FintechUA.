@@ -57,5 +57,7 @@
     <string name="expenses_updated">Expenses updated successfully</string>
     <string name="update_failed">Failed to update expenses</string>
     <string name="pagos">Number of payments</string>
+    <string name="splash1">Powered by LircayHub</string>
+    <string name="splash2">Developer by Maximiliano Solis</string>
 
 </resources>
